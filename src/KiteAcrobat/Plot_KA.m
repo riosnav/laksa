@@ -68,7 +68,7 @@ if  Flag_Dim == 1
     ylabel('y (m)')
     zlabel('z (m)')
     title(ax1,[' \tau  = ' num2str(t*sqrt(PD.Tether.L0/PD.Env.g)) ])
-    axis([0 1. -0.5 0.5 0 1.1]*PD.Tether.L0)
+    axis([0 1. -1. 1. 0 1.1]*PD.Tether.L0)
 else
     xlabel('x/L_0')
     ylabel('y/L_0')
